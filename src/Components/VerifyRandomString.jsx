@@ -18,7 +18,7 @@ export default function VerifyRandomString() {
 
         if (response.data.message === "Random String Verified") {
           // If the random string is verified, display a success message
-          toast.success("Password Verified Successfully", {
+          toast.success("Random String Verified Successfully", {
             position: "top-right",
             autoClose: 1500,
             hideProgressBar: false,
